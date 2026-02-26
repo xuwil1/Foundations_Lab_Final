@@ -15,3 +15,19 @@ This repository serves as the primary technical workbench for the Cybersecurity 
 
 ## Environment Configuration
 Initialized a local Git repository on Windows 11 (Git v2.38.0.windows.1). Successfully synchronized 100% of local metadata to a private GitHub remote repository via a secure HTTPS handshake.
+
+## Security Foundations: Governance & Frameworks
+
+The CIA(Confidentiality, Integrity, Availability) triad is a core framework for building security projects. It is important to include all three pillars when building a security project; otherwise, the project risks being compromised if one pillar fails or is excluded.  
+The AAA(Authentication, Authorization, Accounting) framework does three things. First, the system authenticates by having a user prove their identity through a password or biometric credential. Next, it authorizes the resources available based on the user’s privilege. Finally, the system will account for the user by logging the user’s activities. 
+Governance affects cybersecurity roles by creating job opportunities and setting industry regulations and guidelines (Gomez, 2025). Anyone in cybersecurity should learn and understand common frameworks to securely protect their organization’s data. The protection of an organization's data, in turn, protects consumers’ information. For example, this could mean a patient’s health record for a hospital or a customer's financials for a bank.  
+
+Reflection
+Governance is just as important as technical skills in cybersecurity because compliance with frameworks ensures information security. Confidentiality is maintained by authenticating users based on their credentials. The integrity of systems is maintained through accounting. Availability is maintained through authorization of the user’s privilege. Most cybersecurity jobs are team-oriented, and following the same framework makes it easier for teams to collaborate and be held accountable. 
+GRC aligns most with today’s material because we discussed the importance of governance, risk management, and compliance. Compliance with standardized frameworks such as NIST allows the organization to identify its cybersecurity risk and govern its risk management.
+
+##Reference
+Fortinet. (2023). What Is Authentication, Authorization, And Accounting (AAA) Security? Fortinet. https://www.fortinet.com/resources/cyberglossary/aaa-security
+Fortinet. (2025). What is the CIA Triad and Why is it important? Fortinet. https://www.fortinet.com/resources/cyberglossary/cia-triad
+Imi. (2021, April 22). AAA identity and Access Management Framework Model. Identity Management Institute®. https://identitymanagementinstitute.org/identity-and-access-management-model/
+Gomez, A. (2025). What Is Cybersecurity Governance and Why Does It Matter? Ollusa.edu. https://www.ollusa.edu/blog/what-is-cybersecurity-governance.html
