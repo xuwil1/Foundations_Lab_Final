@@ -26,8 +26,16 @@ Reflection
 Governance is just as important as technical skills in cybersecurity because compliance with frameworks ensures information security. Confidentiality is maintained by authenticating users based on their credentials. The integrity of systems is maintained through accounting. Availability is maintained through authorization of the user’s privilege. Most cybersecurity jobs are team-oriented, and following the same framework makes it easier for teams to collaborate and be held accountable. 
 GRC aligns most with today’s material because we discussed the importance of governance, risk management, and compliance. Compliance with standardized frameworks such as NIST allows the organization to identify its cybersecurity risk and govern its risk management.
 
-##Reference
+## Lab Infrastructure & Virtualization Setup
+
+A hypervisor is a software that is used to monitor virtual machines. This is done by enabling one physical host machine to share its CPU, RAM, network, and storage. There are two different types of hypervisors. Type one is called a bare-metal hypervisor and runs directly on a host’s hardware (RedHat, 2023). Type two is called a hosted hypervisor and runs on an operating system as software (RedHat, 2023). A virtual machine is software run inside a physical computer and has resources allocated from the host computer. Isolation matters in cybersecurity because it ensures the host computer will not be affected by the virtual machine during testing. If malware were to affect the virtual machine, the host machine would still be safe.
+Virtualization is connected to the CIA triad, such that virtual machines are isolated from host machines, so confidentiality is maintained by preventing the virtual machine from accessing files from other machines. A hacker would never be able to get access to important files from a host machine if they hack the virtual machine. Integrity is maintained through the accounting of logs . Availability is maintained by ensuring the virtual machine files can be hosted on a new host machine if the original host machine were to go down. 
+Reflection
+Isolation is important when testing software or malware because it creates confidentiality for the host machine or other virtual machines. Any issues that occur in the infected virtual machine will not leak to the host machine or other virtual machines. This means that if a hacker were to hack into a virtual machine, the host files will not be leaked, therefore staying confidential. Virtualization supports secure experimentation through availability. If the virtual machine is infected, the host machine can revert the virtual machine to a healthy state. This ensures availability through virtualization by allowing access to the virtual machine at all times. 
+
+## Reference
 Fortinet. (2023). What Is Authentication, Authorization, And Accounting (AAA) Security? Fortinet. https://www.fortinet.com/resources/cyberglossary/aaa-security
 Fortinet. (2025). What is the CIA Triad and Why is it important? Fortinet. https://www.fortinet.com/resources/cyberglossary/cia-triad
 Imi. (2021, April 22). AAA identity and Access Management Framework Model. Identity Management Institute®. https://identitymanagementinstitute.org/identity-and-access-management-model/
 Gomez, A. (2025). What Is Cybersecurity Governance and Why Does It Matter? Ollusa.edu. https://www.ollusa.edu/blog/what-is-cybersecurity-governance.html
+RedHat. (2023, January 3). What is a hypervisor? Www.redhat.com. https://www.redhat.com/en/topics/virtualization/what-is-a-hypervisor
